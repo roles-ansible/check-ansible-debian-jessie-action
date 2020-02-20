@@ -14,6 +14,7 @@ RUN apt-get update -y && apt-get install -y \
     build-essential \
     libffi-dev \
     libssl-dev \
+    python3 \
     python3-dev \
     python3-pip \
     git \
