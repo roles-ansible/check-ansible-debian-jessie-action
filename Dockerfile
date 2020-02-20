@@ -14,8 +14,8 @@ RUN apt-get update -y && apt-get install -y \
     build-essential \
     libffi-dev \
     libssl-dev \
-    python2-dev \
-    python2-pip \
+    python-dev \
+    python-pip \
     git \
     apt-utils \
     systemd
