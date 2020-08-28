@@ -20,7 +20,7 @@ RUN apt-get update -y && apt-get install -y \
     apt-utils \
     systemd
 
-RUN pip2 install --upgrade setuptools && pip2 install ansible
+RUN pip2 install ansible
 
 RUN ansible --version
 
