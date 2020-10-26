@@ -5,6 +5,8 @@
 =======================
 This action allows you to test your ansible role or your playbook in a Docker Container with ``debian:jessie``.
 
+**Attention: Debian Jessie is [End of Life since June 2020](https://www.debian.org/News/2020/20200709). This means that this github action role is no longer actively supported. Solutions via pull-request are of course always very welcome.**
+
 ## Usage
 To use the action simply create an ``ansible-debian-jessie.yml`` *(or choose custom ``*.yml`` name)* in the ``.github/workflows/`` directory.
 
