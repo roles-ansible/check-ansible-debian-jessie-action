@@ -47,7 +47,7 @@ ansible::test::role() {
     """ | tee -a deploy.yml
 
   # execute playbook
-  ansible-playbook  --connection=local --limit localhost deploy.yml
+  ansible-playbook  --connection=local --limit localhost -i host.ini deploy.yml
 }
 ansible::test::playbook() {
   : "${TARGETS?No targets to check. Nothing to do.}"
