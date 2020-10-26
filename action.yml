@@ -43,4 +43,4 @@ runs:
     REQUIREMENTS: ${{ inputs.requirements }}
 branding:
   icon: 'aperture' 
-  color: 'gray'
+  color: 'gray-dark'
