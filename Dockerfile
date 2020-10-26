@@ -18,9 +18,8 @@ RUN apt-get update -y && apt-get install -y \
     python-pip \
     git \
     apt-utils \
-    systemd
-
-RUN pip2 install ansible
+    systemd \
+    ansible
 
 RUN ansible --version
 
